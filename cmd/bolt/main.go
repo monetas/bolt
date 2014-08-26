@@ -8,8 +8,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/boltdb/bolt"
 	"github.com/codegangsta/cli"
+	"github.com/conformal/bolt"
 	// "github.com/davecheney/profile"
 )
 

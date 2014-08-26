@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/boltdb/bolt"
+	"github.com/conformal/bolt"
 )
 
 // Export exports the entire database as a JSON document.

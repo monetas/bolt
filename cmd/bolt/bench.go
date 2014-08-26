@@ -12,7 +12,7 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"github.com/boltdb/bolt"
+	"github.com/conformal/bolt"
 )
 
 // File handlers for the various profiles.

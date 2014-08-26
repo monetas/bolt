@@ -1,10 +1,14 @@
-Bolt [![Build Status](https://drone.io/github.com/boltdb/bolt/status.png)](https://drone.io/github.com/boltdb/bolt/latest) [![Coverage Status](https://coveralls.io/repos/boltdb/bolt/badge.png?branch=master)](https://coveralls.io/r/boltdb/bolt?branch=master) [![GoDoc](https://godoc.org/github.com/boltdb/bolt?status.png)](https://godoc.org/github.com/boltdb/bolt) ![Project status](http://img.shields.io/status/beta.png?color=blue)
+Bolt [![GoDoc](https://godoc.org/github.com/conformal/bolt?status.png)](https://godoc.org/github.com/conformal/bolt)
 ====
 
 > Simple is the new beautiful.
 >
 > — [Tobias Lütke](https://twitter.com/tobi)
 
+
+**NOTE:** This is a fork/vendoring of http://github.com/boltdb/bolt
+The following documentation has been modified to point at this fork for
+convenience.
 
 ## Overview
 
@@ -39,7 +43,7 @@ and report any bugs found.
 To start using Bolt, install Go and run `go get`:
 
 ```sh
-$ go get github.com/boltdb/bolt/...
+$ go get github.com/conformal/bolt/...
 ```
 
 This will retrieve the library and install the `bolt` command line utility into
@@ -59,7 +63,7 @@ package main
 import (
 	"log"
 
-	"github.com/boltdb/bolt"
+	"github.com/conformal/bolt"
 )
 
 func main() {
