@@ -431,7 +431,14 @@ Here are a few things to note when evaluating and using Bolt:
 * Bulk loading a lot of random writes into a new bucket can be slow as the
   page will not split until the transaction is committed. Randomly inserting
   more than 100,000 key/value pairs into a single new bucket in a single
-  tranaction is not advised.
+  transaction is not advised.
+
+* Bolt uses a memory-mapped file so the underlying operating system handles the
+  caching of the data. Typically, the OS will cache as much of the file as it
+  can in memory and will release memory as needed to other processes. This means
+  that Bolt can show very high memory usage when working with large databases.
+  However, this is expected and the OS will release memory as needed. Bolt can
+  handle databases much larger than the available physical RAM.
 
 
 ## Other Projects Using Bolt
@@ -453,6 +460,9 @@ Below is a list of public, open source projects that use Bolt:
 * [photosite/session](http://godoc.org/bitbucket.org/kardianos/photosite/session) - Sessions for a photo viewing site.
 * [LedisDB](https://github.com/siddontang/ledisdb) - A high performance NoSQL, using Bolt as optional storage.
 * [ipLocator](https://github.com/AndreasBriese/ipLocator) - A fast ip-geo-location-server using bolt with bloom filters.
+* [cayley](https://github.com/google/cayley) - Cayley is an open-source graph database using Bolt as optional backend.
+* [bleve](http://www.blevesearch.com/) - A pure Go search engine similar to ElasticSearch that uses Bolt as the default storage backend.
+* [tentacool](https://github.com/optiflows/tentacool) - REST api server to manage system stuff (IP, DNS, Gateway...) on a linux server.
 
 If you are using Bolt in a project please send a pull request to add it to the list.
 
