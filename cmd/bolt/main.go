@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/btcsuite/bolt"
 	"github.com/codegangsta/cli"
-	"github.com/conformal/bolt"
 )
 
 var branch, commit string

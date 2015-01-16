@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/conformal/bolt"
+	"github.com/btcsuite/bolt"
 )
 
 // Ensure that committing a closed transaction returns an error.

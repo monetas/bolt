@@ -1,4 +1,4 @@
-Bolt [![GoDoc](https://godoc.org/github.com/conformal/bolt?status.png)](https://godoc.org/github.com/conformal/bolt)
+Bolt [![GoDoc](https://godoc.org/github.com/btcsuite/bolt?status.png)](https://godoc.org/github.com/btcsuite/bolt)
 
 **NOTE:** This is a fork/vendoring of http://github.com/boltdb/bolt
 The following documentation has been modified to point at this fork for
@@ -35,7 +35,7 @@ services every day.
 To start using Bolt, install Go and run `go get`:
 
 ```sh
-$ go get github.com/conformal/bolt/...
+$ go get github.com/btcsuite/bolt/...
 ```
 
 This will retrieve the library and install the `bolt` command line utility into
@@ -55,7 +55,7 @@ package main
 import (
 	"log"
 
-	"github.com/conformal/bolt"
+	"github.com/btcsuite/bolt"
 )
 
 func main() {

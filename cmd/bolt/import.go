@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/conformal/bolt"
+	"github.com/btcsuite/bolt"
 )
 
 // Import converts an exported database dump into a new database.

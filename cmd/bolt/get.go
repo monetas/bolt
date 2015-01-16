@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/conformal/bolt"
+	"github.com/btcsuite/bolt"
 )
 
 // Get retrieves the value for a given bucket/key.

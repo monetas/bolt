@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/conformal/bolt"
+	"github.com/btcsuite/bolt"
 )
 
 // Keys retrieves a list of keys for a given bucket.

@@ -12,7 +12,7 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"github.com/conformal/bolt"
+	"github.com/btcsuite/bolt"
 )
 
 // File handlers for the various profiles.

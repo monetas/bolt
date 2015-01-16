@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/conformal/bolt"
+	"github.com/btcsuite/bolt"
 )
 
 var statsFlag = flag.Bool("stats", false, "show performance stats")

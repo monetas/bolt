@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/conformal/bolt"
+	"github.com/btcsuite/bolt"
 )
 
 // Check performs a consistency check on the database and prints any errors found.

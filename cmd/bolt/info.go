@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/conformal/bolt"
+	"github.com/btcsuite/bolt"
 )
 
 // Info prints basic information about a database.
