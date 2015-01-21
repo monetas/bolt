@@ -4,7 +4,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/btcsuite/bolt"
+	"github.com/monetas/bolt"
 )
 
 // Pages prints a list of all pages in a database.

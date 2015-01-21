@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/btcsuite/bolt"
+	"github.com/monetas/bolt"
 )
 
 // Buckets prints a list of all buckets.

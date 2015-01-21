@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/btcsuite/bolt"
-	. "github.com/btcsuite/bolt/cmd/bolt"
+	"github.com/monetas/bolt"
+	. "github.com/monetas/bolt/cmd/bolt"
 )
 
 func TestStats(t *testing.T) {

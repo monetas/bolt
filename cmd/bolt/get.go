@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/btcsuite/bolt"
+	"github.com/monetas/bolt"
 )
 
 // Get retrieves the value for a given bucket/key.

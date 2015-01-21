@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/btcsuite/bolt"
+	"github.com/monetas/bolt"
 )
 
 // Keys retrieves a list of keys for a given bucket.

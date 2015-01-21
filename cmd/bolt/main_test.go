@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/btcsuite/bolt"
-	. "github.com/btcsuite/bolt/cmd/bolt"
+	"github.com/monetas/bolt"
+	. "github.com/monetas/bolt/cmd/bolt"
 )
 
 // open creates and opens a Bolt database in the temp directory.

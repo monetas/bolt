@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/btcsuite/bolt"
-	. "github.com/btcsuite/bolt/cmd/bolt"
+	"github.com/monetas/bolt"
+	. "github.com/monetas/bolt/cmd/bolt"
 )
 
 // Ensure that a database can be imported.

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/btcsuite/bolt"
+	"github.com/monetas/bolt"
 )
 
 // Export exports the entire database as a JSON document.
